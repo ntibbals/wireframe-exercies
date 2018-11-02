@@ -4,12 +4,18 @@ body {
 header {
   background-color: black;
   height: 130px;
-  width: 100%;
+  text-align: center;
 }
 .headerimg {
+  float: left;
   padding-top: 20px;
-  padding-left: 40px;
+  padding-right: 440px;
   position: absolute;
+}
+#nav {
+    display: inline-block;
+    padding-top: 550px;
+    padding-left: 20px;
 }
 .nav1 {
   display: inline-block;
@@ -38,14 +44,27 @@ header {
 }
 main {
   background-color: grey;
-  position: fixed;
-  height: 100%;
-  width: 100%;
+  text-align: center;
+}
+.largetop {
+  padding-top: 10px;
+  padding-left: 40px;
+  float: center;
+}
+.middle {
+  display: inline-block;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.bottomimage {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.scroolltable {
+  display: inline-block;
 }
 footer {
   background-color: black;
   height: 80px;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
+  position: relative;
 }
