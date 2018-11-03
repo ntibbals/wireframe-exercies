@@ -10,18 +10,14 @@ header {
   float: left;
   padding-top: 20px;
   padding-left: 300px;
-  /* padding-right: 440px; */
-  /* position: absolute; */
 }
 #nav {
     display: inline-block;
     padding-top: 550px;
-    /* padding-left: 20px; */
 }
 .nav1 {
   display: inline-block;
   margin-top: 50px;
-  /* padding-left: 350px; */
   padding-right: 50px;
 }
 .nav2 {
@@ -67,9 +63,32 @@ main {
   display: block;
   overflow-x: scroll;
   position: flex;
-  margin-top: 30px;
   margin-left: 820px;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
+}
+#scrollhead {
+  padding-left: 360px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+#button {
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 5px;
+padding-bottom: 5px;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+color: white;
+background-color: black;
+border-radius: 10px;
+}
+#button:hover {
+  color: red;
+}
+form {
+  padding-left: 315px;
+  padding-bottom: 20px;
 }
 footer {
   background-color: #DDD;
