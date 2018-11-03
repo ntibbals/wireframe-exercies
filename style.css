@@ -1,26 +1,27 @@
 body {
-  color: white;
+  padding: 5px;
 }
 header {
-  background-color: black;
+  background-color: #DDD;
   height: 130px;
   text-align: center;
 }
 .headerimg {
   float: left;
   padding-top: 20px;
-  padding-right: 440px;
-  position: absolute;
+  padding-left: 300px;
+  /* padding-right: 440px; */
+  /* position: absolute; */
 }
 #nav {
     display: inline-block;
     padding-top: 550px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 .nav1 {
   display: inline-block;
   margin-top: 50px;
-  padding-left: 350px;
+  /* padding-left: 350px; */
   padding-right: 50px;
 }
 .nav2 {
@@ -39,32 +40,39 @@ header {
 .nav4 {
   display: inline-block;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 250px;
   margin-top: 50;
 }
 main {
-  background-color: grey;
   text-align: center;
 }
 .largetop {
-  padding-top: 10px;
-  padding-left: 40px;
+  padding-top: 20px;
+  padding-left: 30px;
   float: center;
 }
 .middle {
   display: inline-block;
   padding-top: 30px;
-  padding-left: 20px;
+  margin-left: 27px;
 }
 .bottomimage {
-  padding-left: 40px;
-  padding-top: 40px;
+  position: absolute;
+  margin-top: 20px;
+  float: left;
+  margin-left: -467px;
+  margin-bottom: 20px;
 }
-.scroolltable {
-  display: inline-block;
+#scroll {
+  display: block;
+  overflow-x: scroll;
+  position: flex;
+  margin-top: 30px;
+  margin-left: 820px;
+  margin-bottom: 80px;
 }
 footer {
-  background-color: black;
+  background-color: #DDD;
   height: 80px;
   position: relative;
 }
