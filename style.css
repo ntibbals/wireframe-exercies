@@ -63,11 +63,11 @@ main {
   display: block;
   overflow-x: scroll;
   position: flex;
-  margin-left: 820px;
+  margin-left: 795px;
   margin-bottom: 10px;
 }
 #scrollhead {
-  padding-left: 360px;
+  padding-left: 300px;
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 20px;
